@@ -1,15 +1,23 @@
-# E-Commerce Website
+# Decision tree implementation
 
-## About the Project
-This project is a comprehensive e-commerce platform designed to provide users with a seamless online shopping experience. The website includes features like user authentication, product browsing, shopping cart, and an admin panel for managing the store. The project was built with scalability and performance in mind, ensuring a fast and responsive user experience across all devices.
+## About the Decision tree
+Decision Tree is one of the most powerful and popular algorithms. Python Decision-tree algorithm falls under the category of supervised learning algorithms. It works for both continuous as well as categorical output variables. In this article, We are going to implement a Decision tree in Python algorithm on the Balance Scale Weight & Distance Database presented on the UCI.
 
-## Technologies
+Decision Tree
+A Decision tree is a tree-like structure that represents a set of decisions and their possible consequences. Each node in the tree represents a decision, and each branch represents an outcome of that decision. The leaves of the tree represent the final decisions or predictions.
+
+Decision trees are created by recursively partitioning the data into smaller and smaller subsets. At each partition, the data is split based on a specific feature, and the split is made in a way that maximizes the information gain.
+
+## Key Components of Decision Trees in Python
 The following technologies were used in the development of this project:
 
-- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap v5.3, React.js
-- **Backend**: Consumed a public API that provides all the project functionality [Here](https://documenter.getpostman.com/view/5709532/2s93JqTRWN#451d8e36-24b9-4526-b9bd-7e9d8dc35223)
-- **Authentication**: JSON Web Tokens (JWT)
-- **Version Control**: Git, GitHub
+- Root Node: The decision tree’s starting node, which stands for the complete dataset.
+- Branch Nodes: Internal nodes that represent decision points, where the data is split based on a specific attribute.
+- Leaf Nodes: Final categorization or prediction-representing terminal nodes.
+- Decision Rules: Rules that govern the splitting of data at each branch node.
+- Attribute Selection: The process of choosing the most informative attribute for each split.
+- Splitting Criteria: Metrics like information gain, entropy, or the Gini Index are used to calculate the optimal split
+  
 
 ## Features
 The platform includes a wide array of features:
@@ -26,15 +34,6 @@ The platform includes a wide array of features:
 - **Category Management**: Products are categorized for easy browsing.
 - **Registration Seystem**: Includes registration, secure login, password updates, and password reset functionality..
 
-## Setup
-follow the following steps to run the project.
-
-- Install Node.js from [Node.js](https://nodejs.org/en)
-- Clone this repo on your local machine.
-- Run these commands on the project directory respectively
-  - `npm install`
-  - `npm run json-server`
-  - `npm start`
 
 ## Team who Contributed in the project :
 - [Khaled Kamal](https://github.com/Mostafay65)
@@ -45,7 +44,7 @@ follow the following steps to run the project.
 - [Khaled Waleed](https://github.com/Mohamed-Elseglaby)
 
 
-## ScreenShots From the project:
+## ScreenShots From the Decision tree implementation:
 
 ![img](/src/assets/ProjectScreenshots/1.jpeg)
 ![img](/src/assets/ProjectScreenshots/2.jpeg)
