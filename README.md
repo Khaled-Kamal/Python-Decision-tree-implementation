@@ -46,11 +46,4 @@ The platform includes a wide array of features:
 
 ## ScreenShots From the Decision tree implementation:
 
-![img](![image](https://github.com/user-attachments/assets/5d5b74d2-1a66-4df4-a03e-4d78af23fde5)
-)
-![img](/src/assets/ProjectScreenshots/2.jpeg)
-![img](/src/assets/ProjectScreenshots/4.jpeg)
-![img](/src/assets/ProjectScreenshots/3.png)
-![img](/src/assets/ProjectScreenshots/5.png)
-![img](/src/assets/ProjectScreenshots/6.png)
 
